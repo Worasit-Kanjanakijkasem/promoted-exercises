@@ -50,8 +50,7 @@
         Object.assign(el("button", "btn-toggle"), { id: "toggleBtn", textContent: "ดูเฉลย" }),
         Object.assign(el("button", "btn-end"), { id: "endBtn", textContent: "จบ" })),
       el("div", "end-screen",
-        Object.assign(el("div", "headline"), { textContent: "จบแล้ว สู้ๆ นะ! 🎉" }),
-        Object.assign(el("div", "sub"), { textContent: "ฝึกอีกรอบได้เลยถ้าอยากลองต่อ" }),
+        Object.assign(el("div", "headline"), { textContent: "ความพยายามต้องใช้ให้ถูกที่จึงมีประโยชน์" }),
         Object.assign(el("button", "btn-restart"), { id: "restartBtn", textContent: "เริ่มใหม่" })));
     body.querySelector(".end-screen").id = "endScreen";
     document.getElementById("answerWrap").style.display = "none";
