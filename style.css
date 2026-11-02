@@ -186,7 +186,7 @@
     z-index: 10;
   }
   .end-screen.show { display: flex; }
-  .end-screen .headline { font-size: clamp(26px, 4.6vw, 46px); font-weight: 800; line-height: 1.4; margin-bottom: 40px; max-width: 900px; }
+  .end-screen .headline { font-size: clamp(26px, 4.6vw, 46px); font-weight: 800; line-height: 1.4; margin-bottom: 76px; max-width: 900px; }
 
   .btn-restart {
     background: var(--navy-deep);
