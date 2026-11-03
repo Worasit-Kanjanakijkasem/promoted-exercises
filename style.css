@@ -78,8 +78,7 @@
     z-index: 1;
   }
 
-  .katex .mathnormal, .katex .mathdefault, .katex .mathit { font-family: "Times New Roman", Times, serif !important; }
-  .katex .ordinary-number { font-family: "Times New Roman", Times, serif !important; font-style: normal; font-size: calc(1em - 1pt); }
+  /* สูตรทั้งหมดใช้ฟอนต์ของ KaTeX (Computer Modern) ไม่ทับด้วยฟอนต์อื่น เพื่อให้เส้นขีดบน (conjugate) และสัญลักษณ์อยู่ในระยะที่ถูกต้อง */
   .expr {
     font-family: "Times New Roman", Times, serif;
     font-size: clamp(22px, 4.4vw, 46px);
